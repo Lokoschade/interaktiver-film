@@ -3,8 +3,8 @@ import './header.css'
 
 const Header = () => {
   return (
-    <div>
-      Header
+    <div className='wum__header'>
+      <p>tach</p>
     </div>
   )
 }
