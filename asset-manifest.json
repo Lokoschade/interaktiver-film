@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/interaktiver-film/static/css/main.516d6b57.css",
-    "main.js": "/interaktiver-film/static/js/main.fd84047d.js",
-    "static/media/logo.svg": "/interaktiver-film/static/media/logo.103cce88be71b153b68d833f14796a70.svg",
+    "main.css": "/interaktiver-film/static/css/main.881175b7.css",
+    "main.js": "/interaktiver-film/static/js/main.9539e041.js",
+    "static/media/ticket-2974645.jpg": "/interaktiver-film/static/media/ticket-2974645.ec719b27511ed1a1cf44.jpg",
+    "static/media/js_mastery.png": "/interaktiver-film/static/media/js_mastery.271574106b64a3379b64.png",
+    "static/media/hsa_logo_white.png": "/interaktiver-film/static/media/hsa_logo_white.946a5a55172717b02838.png",
+    "static/media/logoipsum-logo.svg": "/interaktiver-film/static/media/logoipsum-logo.aed27d010960115b8f99b5faa6e2ff82.svg",
+    "static/media/logo.svg": "/interaktiver-film/static/media/logo.e4807b9d5b63d0fe60770cb867657ac1.svg",
     "index.html": "/interaktiver-film/index.html",
-    "main.516d6b57.css.map": "/interaktiver-film/static/css/main.516d6b57.css.map",
-    "main.fd84047d.js.map": "/interaktiver-film/static/js/main.fd84047d.js.map"
+    "main.881175b7.css.map": "/interaktiver-film/static/css/main.881175b7.css.map",
+    "main.9539e041.js.map": "/interaktiver-film/static/js/main.9539e041.js.map"
   },
   "entrypoints": [
-    "static/css/main.516d6b57.css",
-    "static/js/main.fd84047d.js"
+    "static/css/main.881175b7.css",
+    "static/js/main.9539e041.js"
   ]
 }
