@@ -15,10 +15,11 @@
 
 .wum__navbar-links_logo {
     margin-right: 2rem;
+    height: 25px;
 }
 
 .wum__navbar-links_logo img {
-    width: 62px;
+    height: 25px;
 }
 
 .wum__navbar-links_container {
@@ -44,8 +45,8 @@
 .wum__navbar-menu_container-links-help p {
     box-sizing: border-box;
     border-radius: 5px;
+    border: 1px solid var(--color-text);
     padding: 0.5rem 1rem;
-    background-color: var(--color-subtext);
 }
 
 .wum__navbar-menu {

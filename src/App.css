@@ -15,20 +15,28 @@ a {
 }
 
 .gradient__bg {
+    /*background-color: #012622;
+    background: url('./assets/ticket-2974645.jpg') center center no-repat;*/
+    
     /* ff 3.6+ */
-    background: -moz-radial-gradient(circle at 3% 25%, #003E1F 1%, #01110A 100%);
+    background:-moz-radial-gradient(circle at 100% 100%, #FF242400 0%, #003B36 49%), url('./assets/ticket-2974645.jpg');
 
     /* safari 5.1+,chrome 10+ */
-    background: -webkit-radial-gradient(circle at 3% 25%, #003E1F 1%, #01110A 100%);
+    background:-webkit-radial-gradient(circle at 100% 100%, #FF242400 0%, #003B36 49%), url('./assets/ticket-2974645.jpg');
 
     /* opera 11.10+ */
-    background: -o-radial-gradient(circle at 3% 25%, #003E1F 1%, #01110A 100%);
+    background:-o-radial-gradient(circle at 100% 100%, #FF242400 0%, #003B36 49%), url('./assets/ticket-2974645.jpg');
 
     /* ie 10+ */
-    background: -ms-radial-gradient(circle at 3% 25%, #003E1F 1%, #01110A 100%);
+    background:-ms-radial-gradient(circle at 100% 100%, #FF242400 0%, #003B36 49%), url('./assets/ticket-2974645.jpg');
 
     /* global 92%+ browsers support */
-    background: radial-gradient(circle at 3% 25%, #003E1F 1%, #01110A 100%);
+    background:radial-gradient(circle at 100% 100%, #FF242400 0%, #003B36 49%), url('./assets/ticket-2974645.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
 }
 
 .gradient__text {
