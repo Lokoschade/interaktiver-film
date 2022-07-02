@@ -8,7 +8,7 @@ const Movie = ({imgUrl, title}) => {
         <div className='wum__selection-container_movie-image'>
             <img src={imgUrl} alt="thumbnail"/>
         </div>
-        <div className='selection-container_movie-title'>
+        <div className='wum__selection-container_movie-title'>
             <h3>{title}</h3>
         </div>
       </div>
