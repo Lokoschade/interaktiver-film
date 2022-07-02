@@ -8,7 +8,8 @@ const Header = () => {
         <h1 className='gradient__text'>What is this Website? And why?</h1>
         <p>This website was created in the course of a project for the web and media programming module of the Anhalt University of Applied Sciences. </p>
         <p>It was our goal to create a web service especially designed for people to watch films with interactive features.</p>
-        <p>We created several functionalities to explore for our users. One of which is the depiction of all clips available in our library section, followed by the video player itself and the choice buttons appering near the end of a clip, so the user always has the option to pick and choose which clip to see and how the story continues.</p>
+        <p>In our library you can choose one of the available movies. Near the end of a clip you have the option to choose between two different continuations for the story. Your choice will have an impact on how things within the story will develop and it will eventually determine the outcome.</p>
+        <p>So choose wisely and have fun!</p>
       </div>
     </div>
   )

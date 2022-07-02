@@ -1,10 +1,17 @@
 import React from 'react'
 import './movie.css'
 
-const Movie = () => {
+const Movie = ({imgUrl, title}) => {
   return (
     <div>
-      Movie
+      <div className='wum__selection-container_movie'>
+        <div className='wum__selection-container_movie-image'>
+            <img src={imgUrl} alt="thumbnail"/>
+        </div>
+        <div className='selection-container_movie-title'>
+            <h3>{title}</h3>
+        </div>
+      </div>
     </div>
   )
 }

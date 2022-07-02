@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Header, Movies, Help, Footer } from './containers';
+import { Header, Selection, Help, Footer, PlayerContainer } from './containers';
 import { Navbar, Break } from './components';
 import './App.css';
 
@@ -12,7 +12,8 @@ const App = () => {
         <Header />
       </div>
       <Break/>
-      <Movies />
+      <PlayerContainer movieId='1' clipId='1'/>
+      <Selection />
       <Help />
       <Footer />
     </div>
