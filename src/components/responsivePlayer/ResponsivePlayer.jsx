@@ -4,7 +4,7 @@ import './responsivePlayer.css'
 
 const ResponsivePlayer = ({ url }) => {
   return (
-      <div className='player-wrapper'>
+      <div className='wum__responsivePlayer section__padding'>
         <ReactPlayer
           className='react-player'
           url={url}

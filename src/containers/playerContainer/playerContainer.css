@@ -1,0 +1,29 @@
+.wum__playercontainer-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 2rem 0;
+}
+
+.wum__playercontainer-button h3 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    background: var(--color-subtext);
+    color: var(--color-text);
+    font-family: var(--font-family);
+    cursor: pointer;
+
+    padding: 1rem 2rem;
+}
+
+.wum__playercontainer-button h3:first-child {
+    margin-right: 2rem;
+}
+
+.wum__playercontainer-button h3:last-child {
+    margin-left: 2em;
+}

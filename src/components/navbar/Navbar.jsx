@@ -28,8 +28,8 @@ const Navbar = () => {
       </div>
       <div className='wum__navbar-menu'>
         {toggleMenu
-          ? <RiCloseLine color="#D5F2E3" size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color="#D5F2E3" size={27} onClick={() => setToggleMenu(true)} />
+          ? <RiCloseLine color="#ECE5F0" size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color="#ECE5F0" size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
           <div className='wum__navbar-menu_container scale-up-center'>
