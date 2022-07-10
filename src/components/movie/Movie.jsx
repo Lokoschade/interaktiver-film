@@ -1,10 +1,11 @@
 import React from 'react'
 import './movie.css'
 
-const Movie = ({imgUrl, title}) => {
+const Movie = ({imgUrl, title, customClickEvent}) => {
+
   return (
     <div>
-      <div className='wum__selection-container_movie'>
+      <div className='wum__selection-container_movie' onClick={() => customClickEvent()}>
         <div className='wum__selection-container_movie-image'>
             <img src={imgUrl} alt="thumbnail"/>
         </div>

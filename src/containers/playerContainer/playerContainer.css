@@ -1,3 +1,8 @@
+.wum__playercontainer h1 {
+    font-family: var(--font-family);
+    color: var(--color-text);
+}
+
 .wum__playercontainer-button {
     display: flex;
     justify-content: space-between;
@@ -21,9 +26,39 @@
 }
 
 .wum__playercontainer-button h3:first-child {
-    margin-right: 2rem;
+    max-width: 500px;
 }
 
 .wum__playercontainer-button h3:last-child {
-    margin-left: 2em;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 1250px){
+    .wum__playercontainer-button h3:first-child {
+        max-width: 350px;
+    }
+    
+    .wum__playercontainer-button h3:last-child {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .wum__playercontainer-button h3:first-child {
+        max-width: 250px;
+    }
+    
+    .wum__playercontainer-button h3:last-child {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .wum__playercontainer-button {
+        flex-direction: column;
+    }
+
+    .wum__playercontainer-button h3:first-child {
+        margin-bottom: 2rem;
+    }
 }

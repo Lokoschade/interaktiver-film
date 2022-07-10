@@ -21,10 +21,8 @@
 .wum__selection-container_movie-title {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 
     padding: 1rem 1.5rem;
-    height: 100%;
 }
 
 .wum__selection-container_movie-title h3 {
