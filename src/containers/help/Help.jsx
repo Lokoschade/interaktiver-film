@@ -2,6 +2,7 @@ import React from 'react'
 import './help.css'
 import { Question } from '../../components'
 
+//Array der Inhalte die an die Question Component weitergegben werden sollen
 const helpFAQ = [
   {
     question: 'How do I select a movie?',
@@ -26,6 +27,7 @@ const Help = () => {
         <p>Dont worry. We are here to help.</p>
       </div>
       <div className='wum__help-container'>
+        {/* rendere die Component Question, so oft, wie Elemente im Array helpFAQ sind */}
         {helpFAQ.map((item, index) => (
           <Question question = {item.question} answer = {item.answer} key={index}/>
         ))}

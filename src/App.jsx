@@ -12,6 +12,7 @@ export default class App extends Component {
     }
   }
 
+  //bekommt von Selection einen Wert und löst den erten Render vom Player aus
   handleCallback = (num) => {
     this.setState({ movieId: num, renderPlayer: true }, () => {
       console.log('MovieID ' + this.state.movieId)
@@ -22,11 +23,13 @@ export default class App extends Component {
     const { movieId } = this.state;
     return (
       <div className="App">
+        {/* Navbar und Header sind in einem div, damit sie sich einen Hintergrund teilen */}
         <div className="gradient__bg">
           <Navbar />
           <Header />
         </div>
         <Break />
+        {/* renderPlayer wird erst auf true gesetzt, wenn User einen Film ausgewählt hat */}
         {this.state.renderPlayer
           ? <PlayerContainer movieId={movieId} />
           : null}

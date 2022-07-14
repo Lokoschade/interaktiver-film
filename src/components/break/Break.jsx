@@ -2,6 +2,8 @@ import React from 'react'
 import './break.css';
 import { logoipsum, hsa_logo, js_mastery } from './imports';
 
+
+//Component nur zum hübsch aussehen da
 const Break = () => {
     return (
         <div className='wum__break section__padding'>

@@ -1,3 +1,5 @@
+//Datei um die Imports kurz zu halten
+
 export { default as Navbar } from './navbar/Navbar';
 export { default as Movie } from './movie/Movie';
 export { default as ResponsivePlayer } from './responsivePlayer/ResponsivePlayer';

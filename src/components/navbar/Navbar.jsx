@@ -12,8 +12,10 @@ const Menu = () => (
 )
 
 const Navbar = () => {
+  //Boolean um 
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
+    /* Aufbau des Menüs für breite Bildschirme */
     <div className='wum__navbar'>
       <div className='wum__navbar-links'>
         <div className='wum__navbar-links_logo'>
@@ -26,11 +28,14 @@ const Navbar = () => {
       <div className='wum__navbar-help'>
         <p><a href="#help">Help</a></p>
       </div>
+      {/* Aufbau des Menüs für schmale Bildschirme */}
       <div className='wum__navbar-menu'>
         {toggleMenu
+        /* wenn das Mobile-Menü verwendet wird, öffne/schließe Menü onClick und wechsle zwischen den Menü-Icons*/
           ? <RiCloseLine color="#ECE5F0" size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color="#ECE5F0" size={27} onClick={() => setToggleMenu(true)} />
         }
+        {/* toggleMenu auf true gesetzt wurde und wum__navbar-menu display != none, öffne das Menü mit Animation*/}
         {toggleMenu && (
           <div className='wum__navbar-menu_container scale-up-center'>
             <div className='wum__navbar-menu_container-links'>
